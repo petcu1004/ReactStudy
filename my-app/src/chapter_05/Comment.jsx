@@ -45,9 +45,9 @@ function Comment(props){
             </div>
             
             <div style={styles.contentContainer}>
-                <span style={styles.nameText}>민새미</span>
+                <span style={styles.nameText}>{props.name}</span>
                 <span style={styles.commentText}>
-                     제가 만든 첫 컴포넌트입니다.
+                     {props.comment}
                 </span>
             </div>
         </div>
